@@ -33,7 +33,7 @@ export const Nav = () => {
       }
     >
       <div>
-        AUTOCLIENT AVoice
+
       </div>
       <div className={"ml-auto flex items-center gap-1"}>
         <Button
@@ -47,7 +47,7 @@ export const Nav = () => {
           variant={"ghost"}
           className={"ml-auto flex items-center gap-1.5"}
       
-          <span>Star on GitHub</span>
+          <span>Autoclient AI</span>
         </Button>
         <Button
           onClick={toggleDark}
@@ -61,7 +61,7 @@ export const Nav = () => {
               <Moon className={"size-4"} />
             )}
           </span>
-          <span>{isDarkMode ? "Light" : "Dark"} Mode</span>
+          <span>{isDarkMode ? "Light" : "Dark"}</span>
         </Button>
       </div>
     </div>
