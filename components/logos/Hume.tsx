@@ -9,8 +9,8 @@ const AutoClientLogo: FC<AutoClientLogoProps> = (props) => {
 
   return (
     <svg
-      width="150"
-      height="40"
+      width="250"
+      height="70"
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 150 40"
       {...props}
@@ -28,12 +28,12 @@ const AutoClientLogo: FC<AutoClientLogoProps> = (props) => {
         x="10"
         y="28"
         fontFamily="'Helvetica Neue', Arial, sans-serif"
-        fontSize="28"
-        fontWeight="bold"
-        letterSpacing="0.5"
+        fontSize="26"
+        fontWeight="bolder"
+        letterSpacing="0.3"
         fill={`url(#${gradientId})`}
       >
-        Autoclient
+      Autocall.ai
       </text>
     </svg>
   );
