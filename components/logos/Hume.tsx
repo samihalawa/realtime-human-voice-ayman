@@ -33,7 +33,7 @@ const AutoClientLogo: FC<AutoClientLogoProps> = (props) => {
         letterSpacing="0.5"
         fill={`url(#${gradientId})`}
       >
-        AUTOCLIENT.ai
+        Autoclient
       </text>
     </svg>
   );
