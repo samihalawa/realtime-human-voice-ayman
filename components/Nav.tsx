@@ -47,9 +47,7 @@ export const Nav = () => {
           variant={"ghost"}
           className={"ml-auto flex items-center gap-1.5"}
         >
-          <span>
-            <Github className={"size-4"} />
-          </span>
+          
           <span></span>
         </Button>
         <Button
@@ -64,7 +62,7 @@ export const Nav = () => {
               <Moon className={"size-4"} />
             )}
           </span>
-          <span>{isDarkMode ? "Light" : "Dark"} Mode</span>
+          <span>{isDarkMode ? "Light" : "Dark"}</span>
         </Button>
       </div>
     </div>
