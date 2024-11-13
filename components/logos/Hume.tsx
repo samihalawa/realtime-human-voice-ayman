@@ -25,7 +25,7 @@ const AutoClientLogo: FC<AutoClientLogoProps> = (props) => {
 
       {/* Text element with gradient fill */}
       <text
-        x="10"
+        x="15"
         y="28"
         fontFamily="'Helvetica Neue', Arial, sans-serif"
         fontSize="26"
@@ -33,7 +33,7 @@ const AutoClientLogo: FC<AutoClientLogoProps> = (props) => {
         letterSpacing="0.3"
         fill={`url(#${gradientId})`}
       >
-      Autocall.ai
+      Autoclient
       </text>
     </svg>
   );
