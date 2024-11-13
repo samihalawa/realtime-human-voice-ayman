@@ -33,7 +33,7 @@ export const Nav = () => {
       }
     >
       <div>
-
+        <HumeLogo className={"h-5 w-auto"} />
       </div>
       <div className={"ml-auto flex items-center gap-1"}>
         <Button
@@ -46,8 +46,11 @@ export const Nav = () => {
           }}
           variant={"ghost"}
           className={"ml-auto flex items-center gap-1.5"}
-      
-          <span>Autoclient AI</span>
+        >
+          <span>
+            <Github className={"size-4"} />
+          </span>
+          <span></span>
         </Button>
         <Button
           onClick={toggleDark}
@@ -61,7 +64,7 @@ export const Nav = () => {
               <Moon className={"size-4"} />
             )}
           </span>
-          <span>{isDarkMode ? "Light" : "Dark"}</span>
+          <span>{isDarkMode ? "Light" : "Dark"} Mode</span>
         </Button>
       </div>
     </div>
