@@ -60,7 +60,7 @@ export default function RootLayout({
         )}
       >
         <Nav />
-        <div className="flex flex-col items-center justify-center text-center py-20 px-6 bg-gradient-to-b from-white to-gray-100 shadow-md">
+        <div className="flex flex-col items-center justify-center text-center py-20 px-6 bg-gradient-to-b from-purple-300 to-orange-100 shadow-md">
           <h1 className="text-4xl md:text-5xl font-extrabold text-gray-800 mb-4">
             Autoclient AI Calls
           </h1>
